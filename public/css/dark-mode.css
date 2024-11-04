@@ -1,0 +1,114 @@
+/* Example dark mode styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    color: #90caf9;
+}
+
+button, input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0; 
+}
+
+header, footer {
+    background-color: #1e1e1e;
+}
+
+.nav_title {
+    margin-left: 1em;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_text {
+    align-items: center;
+    margin: 0 1em;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logout {
+    margin:0 1em;
+}
+
+.container {
+    margin: 1.5em;
+}
+
+.course-container {
+    display: flex;
+}
+
+.course-content {
+    display: flex;
+}
+
+.students, .assessment-form{
+    margin-right: 1.5em;
+}
+
+.enrolment-form {
+    margin-bottom: 1.5em;
+}
+
+.submit-btn {
+    margin-top: 1em;
+}
+
+.alert {
+    max-width: 600px; /* Limit the width */
+    padding: 8px; /* Add some padding */
+}
+
+.student_review--wrapper {
+    display: flex;
+}
+
+.assessment_details--student, .reviews-received, .your-submissions{
+    margin-right: 1.5em;
+}
+
+.submission-display, .reviews-display {
+    margin: 1em 0;
+}
+
+.student-stats--list {
+    list-style-type: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.student-stats--list li {
+    flex: 0 1 calc(33.33% - 20px); 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+    padding: 10px; 
+    border-radius: 5px;
+    border: solid 1px white;
+}

@@ -1,0 +1,50 @@
+/* Example dark mode styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+a {
+    color: #90caf9;
+}
+
+button, input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+header, footer {
+    background-color: #1e1e1e;
+}
+
+.nav_title {
+    margin-left: 1em;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_text {
+    align-items: center;
+    margin: 0 1em;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logout {
+    margin:0 1em;
+}
